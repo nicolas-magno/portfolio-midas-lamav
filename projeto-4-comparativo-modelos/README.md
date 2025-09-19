@@ -1,32 +1,32 @@
-# Projeto 4 Comparativo Modelos
+## 🤖 Objetivo
+Implementar uma framework completa para comparação sistemática de diferentes algoritmos de machine learning no problema de classificação de tipos de vidro, identificando o modelo mais adequado para a tarefa.
 
-Este projeto faz parte do portfólio de Machine Learning para pesquisa de vidros.
+## 🛠️ Tecnologias Utilizadas
+- **Scikit-learn** - Algoritmos de ML
+- **Matplotlib/Seaborn** - Visualização de resultados
+- **Pandas** - Análise de métricas
+- **Joblib** - Persistência de modelos
+- **NumPy** - Processamento numérico
 
-## Descrição
+## 📊 Modelos Comparados
+1. **Regressão Logística** - Baseline simples
+2. **Árvore de Decisão** - Modelo interpretável
+3. **Random Forest** - Ensemble method
+4. **Gradient Boosting** - Boosting algorithm
+5. **SVM** - Máquinas de vetor de suporte
+6. **K-NN** - K-Vizinhos mais próximos
+7. **Naive Bayes** - Classificador probabilístico
 
-[Descreva brevemente o objetivo deste projeto]
+## 🎓 Aprendizados
+1. **Validação cruzada** estratificada para avaliação robusta
+2. **Comparação sistemática** de algoritmos de ML
+3. **Análise de trade-offs** entre acurácia e performance
+4. **Interpretação de matriz de confusão**
+5. **Seleção de métricas** apropriadas para classificação
+6. **Persistência** do melhor modelo
 
-## Como executar
+## 🚀 Como Executar
 
-1. Navegue até este diretório:
-   ```bash
-   cd projeto-4-comparativo-modelos
-   ```
-
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Execute o projeto:
-   ```bash
-   [comando de execução]
-   ```
-
-## Estrutura de arquivos
-
-[Liste a estrutura de arquivos e explique o propósito de cada um]
-
-## Resultados
-
-[Descreva os resultados esperados]
+### Pré-requisitos
+```bash
+pip install scikit-learn matplotlib seaborn pandas joblib numpy

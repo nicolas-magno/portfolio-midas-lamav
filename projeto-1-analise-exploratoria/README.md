@@ -1,32 +1,44 @@
-# Projeto 1 Analise Exploratoria
+# Projeto 1: Análise Exploratória de Dados de Vidros
 
-Este projeto faz parte do portfólio de Machine Learning para pesquisa de vidros.
+## 📊 Objetivo
+Realizar uma análise exploratória completa do Glass Identification Dataset do UCI Machine Learning Repository, identificando padrões, correlações e insights relevantes para pesquisa de novos tipos de vidro.
 
-## Descrição
+## 🛠️ Tecnologias Utilizadas
+- **Python 3.9**
+- **Pandas** - Manipulação de dados
+- **NumPy** - Computação numérica
+- **Matplotlib** - Visualizações básicas
+- **Seaborn** - Visualizações estatísticas
+- **Scikit-learn** - Acesso ao dataset
 
-[Descreva brevemente o objetivo deste projeto]
+## 📈 Funcionalidades
+- **Carregamento automático** do dataset do UCI Repository
+- **Estatísticas descritivas** completas dos dados
+- **Visualizações de distribuição** para todas as variáveis numéricas
+- **Matriz de correlação** entre características químicas
+- **Análise por tipo de vidro** com gráficos comparativos
 
-## Como executar
+## 🎓 Aprendizados
+1. **Manipulação de dados científicos** com Pandas
+2. **Visualização eficaz** para análise exploratória
+3. **Identificação de correlações** entre propriedades de materiais
+4. **Análise de distribuições** e valores outliers
+5. **Interpretação de dados** de composição química
 
-1. Navegue até este diretório:
-   ```bash
-   cd projeto-1-analise-exploratoria
-   ```
+## 🔍 Insights Obtidos
 
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
+Identificação de correlações entre elementos químicos
 
-3. Execute o projeto:
-   ```bash
-   [comando de execução]
-   ```
+Distribuição desigual de tipos de vidro no dataset
 
-## Estrutura de arquivos
+Variações significativas nas propriedades ópticas
 
-[Liste a estrutura de arquivos e explique o propósito de cada um]
+Presença de outliers em algumas características
 
-## Resultados
+## 🚀 Como Executar
+cd projeto-1-analise-exploratoria
+python scripts/eda_glass.py
 
-[Descreva os resultados esperados]
+### Pré-requisitos
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn

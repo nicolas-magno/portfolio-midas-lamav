@@ -1,32 +1,33 @@
-# Projeto 2 Preprocessamento
+## ⚙️ Objetivo
+Desenvolver um sistema robusto e automatizado para pré-processamento de dados de vidros, preparando-os para algoritmos de machine learning com técnicas adequadas de limpeza, transformação e normalização.
 
-Este projeto faz parte do portfólio de Machine Learning para pesquisa de vidros.
+## 🛠️ Tecnologias Utilizadas
+- **Python 3.9**
+- **Scikit-learn** - Pipelines e transformers
+- **Pandas** - Manipulação de dados
+- **Joblib** - Serialização de modelos
+- **Scikit-learn** - Validação cruzada
 
-## Descrição
+## 🔧 Funcionalidades
+- **Carregamento flexível** de dados (UCI ou arquivos locais)
+- **Imputação de valores missing** com estratégia mediana
+- **Normalização** com StandardScaler
+- **Divisão estratificada** treino/teste
+- **Serialização** do pré-processador treinado
+- **Validação cruzada** integrada
 
-[Descreva brevemente o objetivo deste projeto]
+## 🎓 Aprendizados
+1. **Design de pipelines** com Scikit-learn
+2. **Imputação de valores missing** de forma apropriada
+3. **Normalização** de features numéricas
+4. **Validação cruzada estratificada** para dados desbalanceados
+5. **Serialização** de objetos Python com Joblib
+6. **Programação orientada a objetos** para sistemas de ML
 
-## Como executar
+## 🚀 Como Executar
+cd projeto-2-preprocessamento
+python src/preprocessing.py
 
-1. Navegue até este diretório:
-   ```bash
-   cd projeto-2-preprocessamento
-   ```
-
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Execute o projeto:
-   ```bash
-   [comando de execução]
-   ```
-
-## Estrutura de arquivos
-
-[Liste a estrutura de arquivos e explique o propósito de cada um]
-
-## Resultados
-
-[Descreva os resultados esperados]
+### Pré-requisitos
+```bash
+pip install scikit-learn pandas joblib
