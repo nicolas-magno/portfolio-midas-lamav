@@ -1,0 +1,8 @@
+,Validação Cruzada (Média),Validação Cruzada (Desvio),Acurácia (Teste),F1-Score (Teste),Tempo de Treino (s)
+Logistic Regression,0.45,0.0338,0.525,0.4997,0.0167
+Decision Tree,0.5,0.0518,0.52,0.5162,0.0088
+Random Forest,0.6575,0.031,0.65,0.6423,0.2861
+Gradient Boosting,0.5975,0.0246,0.64,0.6324,1.9027
+SVM,0.7012,0.0553,0.69,0.6855,0.1325
+K-Nearest Neighbors,0.6838,0.0612,0.68,0.6771,0.0106
+Naive Bayes,0.4875,0.0345,0.53,0.5226,0.0024
